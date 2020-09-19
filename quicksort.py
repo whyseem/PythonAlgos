@@ -23,5 +23,5 @@ ARRAY_LENGTH = 100
 array = [randint(0,100) for i in range(ARRAY_LENGTH)]
 
 #[5,3,4,7,9,2,10,15,0,5]
-
+print(array)
 print(quick_sort(array))
